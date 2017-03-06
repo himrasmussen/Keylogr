@@ -63,10 +63,9 @@ r = requests.post(url, data = {
 
 
 new_paste_url = r.text
-to  ='4884363327775135879846716553538304459779401720825464481484714535691640232737275594891122182565076819'
-to  = [i for i in to[::int("1010", 2)]]
-to = ''.join(to)
-to = "4748464292"
+to  ='19236491276349817263498172634987612341' #obfuscating your phone number. Current algorithm: 
+to  = [i for i in to[::int("1010", 2)]]       #one real digit followed by 9 fake ones until your number is written. 
+to = ''.join(to)                              #Feel free to change it
 
 
 
