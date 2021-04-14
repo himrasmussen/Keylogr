@@ -16,7 +16,6 @@ using this on them. :)
 
 import os, re, requests, pip, auth
 try:
-    import pastebin
     import clockwork
 except ImportError:
     pip.main(['install', "pastebin"])
